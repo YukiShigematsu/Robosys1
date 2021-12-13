@@ -1,6 +1,6 @@
-obj-m := myled.o
+obj-m := signal.o
 
-myled.ko: myled.c
+myled.ko: signal.c
 	make -C /usr/src/linux-headers-`uname -r` M=`pwd` V=1 modules
 
 clean:
