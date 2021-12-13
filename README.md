@@ -29,7 +29,7 @@
 ## 回路
 - 回路図
 
-[回路図pdf](https://github.com/YukiShigematsu/Robosys1/files/7704363/robosys.pdf)
+[回路図](https://github.com/YukiShigematsu/Robosys1/files/7704363/robosys.pdf)
 <img src="https://user-images.githubusercontent.com/71487860/145825689-92980b45-2893-464c-b717-ce4328092da1.png" width="1280px">
 
 - 実配線
