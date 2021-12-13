@@ -37,6 +37,7 @@
 
 #### 使用するGPIOピンと用途
 - Raspberry Pi4 ModelB / 8GB
+
 |NO.|GPIOピン|用途|
 |---|---|---|
 |1|５V PWRV PWR|NUCLEO boardへの5V供給|
