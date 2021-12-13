@@ -72,6 +72,7 @@ $ cd Robosys1
 $ make
 $ sudo insmod signal.ko
 $ sudo chmod 666 /dev/signal0
+~~~
 ---
 
 ## 実行方法
