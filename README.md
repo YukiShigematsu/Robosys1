@@ -66,7 +66,12 @@
 ---
 
 ## ビルド方法
-
+---
+$ git clone https://github.com/YukiShigematsu/Robosys1.git
+$ cd Robosys1
+$ make
+$ sudo insmod signal.ko
+$ sudo chmod 666 /dev/signal0
 ---
 
 ## 実行方法
