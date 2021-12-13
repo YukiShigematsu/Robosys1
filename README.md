@@ -28,10 +28,10 @@
 ---
 ## 回路
 - 回路図
-<img src="https://user-images.githubusercontent.com/71487860/145825689-92980b45-2893-464c-b717-ce4328092da1.png" width="960px">
+<img src="https://user-images.githubusercontent.com/71487860/145825689-92980b45-2893-464c-b717-ce4328092da1.png" width="1280px">
 [robosys.pdf](https://github.com/YukiShigematsu/Robosys1/files/7704226/robosys.pdf)
 - 実配線
-<img src="https://user-images.githubusercontent.com/71487860/145822958-991d4a53-fa69-4dfc-919d-0c086c2d226a.jpg" width="320px">
+<img src="https://user-images.githubusercontent.com/71487860/145822958-991d4a53-fa69-4dfc-919d-0c086c2d226a.jpg" width="1280px">
 
 #### 使用するGPIOピンと用途
 - Raspberry Pi4 ModelB / 8GB
