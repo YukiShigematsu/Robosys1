@@ -40,9 +40,38 @@
 
 |NO.|GPIOピン|用途|
 |---|---|---|
-|1|５V PWRV PWR|NUCLEO boardへの5V供給|
-|2|５V PWRV PWR|NUCLEO board、各LEDとのGND共通化|
+|1|５V PWRV PWR|NUCLEO-F446REへの5V供給|
+|2|GND|NUCLEO-F446RE、各LEDとのGND共通化|
 |3|GPIO24|通信の開始と終了の信号を送信|
 |4|GPIO25|通信の内容を送信|
 
+- NUCLEO-F446RE
+
+|NO.|GPIOピン|用途|
+|---|---|---|
+|1|+５V|Raspberry Pi4 からの5V供給|
+|2|GND|Raspberry Pi4、各LEDとのGND共通化|
+|4|PA5|LEDのアノードへ電圧供給|
+|4|PA6|LEDのアノードへ電圧供給|
+|4|PA7|LEDのアノードへ電圧供給|
+|4|PA8|LEDのアノードへ電圧供給|
+|4|PA9|LEDのアノードへ電圧供給|
+|4|PB4|LEDのアノードへ電圧供給|
+|4|PB6|LEDのアノードへ電圧供給|
+|3|PB8|Raspberry Pi4から通信の開始と終了の信号を受信|
+|4|PB9|Raspberry Pi4から通信の内容を受信|
+|4|PB10|LEDのアノードへ電圧供給|
+|4|PC7|LEDのアノードへ電圧供給|
+
 ---
+
+## ビルド方法
+
+---
+
+## 実行方法
+
+---
+
+## License
+
