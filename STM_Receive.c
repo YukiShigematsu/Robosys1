@@ -1,3 +1,10 @@
+/*
+/	GPL-Ver3.0 License
+/
+/	Copyright (c) 2021, Yuki Shigematsu & Ryuichi Ueda.
+/	All rights reserved.
+*/
+
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
