@@ -9,6 +9,14 @@
 [講義動画](https://youtu.be/xQW8-FNuboo)
 
 ---
+## 使用用途
+本ドライバは複数の他マイコンボードに同時に信号を送ることができるため、複数のマイコンボードを同時に操作したり、Raspberry Pi4だけではピンが足りない場合に他のマイコンボードを使用しピン数を拡張することができます。
+
+---
+## 動画
+
+
+---
 ## 使用物品
 |No.|物品名|数量|
 |---|---|---|
@@ -77,21 +85,28 @@ $ sudo chmod 666 /dev/signal0
 
 ## 実行方法
 1. flow
-  ~$ echo f > /dev/signal0~
+`$ echo f > /dev/signal0`
 - NUCLEO-F446REに接続されているLEDが流れるように点滅する信号を送信します
 
 2. cross
-  ~$ echo c > /dev/signal0~
+`$ echo c > /dev/signal0`
 - NUCLEO-F446REに接続されているLEDが交わるように点滅する信号を送信します
 
 3. together
-  ~$ echo t > /dev/signal0~
+`$ echo t > /dev/signal0`
 - NUCLEO-F446REに接続されているLEDが3つずつ点滅する信号を送信します
 
 4. blinking
-  ~$ echo b > /dev/signal0~
+`$ echo b > /dev/signal0`
 - NUCLEO-F446REに接続されているLEDが同時に点滅する信号を送信します
 
+---
+## 終了方法
+
+```
+$ sudo rmmod signal
+$ make clean
+```
 ---
 
 ## License
