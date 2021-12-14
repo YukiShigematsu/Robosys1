@@ -77,19 +77,19 @@ $ sudo chmod 666 /dev/signal0
 
 ## 実行方法
 1. flow
-~$ echo f > /dev/signal0~
+  ~$ echo f > /dev/signal0~
 - NUCLEO-F446REに接続されているLEDが流れるように点滅する信号を送信します
 
 2. cross
-~$ echo c > /dev/signal0~
+  ~$ echo c > /dev/signal0~
 - NUCLEO-F446REに接続されているLEDが交わるように点滅する信号を送信します
 
 3. together
-~$ echo t > /dev/signal0~
+  ~$ echo t > /dev/signal0~
 - NUCLEO-F446REに接続されているLEDが3つずつ点滅する信号を送信します
 
 4. blinking
-~$ echo b > /dev/signal0~
+  ~$ echo b > /dev/signal0~
 - NUCLEO-F446REに接続されているLEDが同時に点滅する信号を送信します
 
 ---
