@@ -85,6 +85,7 @@ $ sudo chmod 666 /dev/signal0
 ~~~
 
 - NUCLEO-F446RE
+
 [Cube IDE](https://www.st.com/ja/development-tools/stm32cubeide.html)を使用して[Receive.c](https://github.com/YukiShigematsu/Robosys1/blob/main/STM_Receive.c)を書き込んでいます。
 
 ---
