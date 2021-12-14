@@ -66,7 +66,6 @@
 ---
 
 ## ビルド方法
----
 ~~~
 $ git clone https://github.com/YukiShigematsu/Robosys1.git
 $ cd Robosys1
@@ -77,7 +76,12 @@ $ sudo chmod 666 /dev/signal0
 ---
 
 ## 実行方法
-
+1. flow
+- 
+- LEDが流れるように点滅します
+3. Cross
+4. together
+5. Blinking
 ---
 
 ## License
