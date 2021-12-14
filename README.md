@@ -14,6 +14,7 @@
 
 ---
 ## 動画
+- 画像をクリックするとYoutubeで動画が再生されます
 [![動画](https://user-images.githubusercontent.com/71487860/145938169-916bef1c-61d3-44b5-a926-83bbaa775269.png)](https://youtu.be/oucpeo4s29Q)
 
 ---
