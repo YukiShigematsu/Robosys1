@@ -77,12 +77,22 @@ $ sudo chmod 666 /dev/signal0
 
 ## 実行方法
 1. flow
-- 
-- LEDが流れるように点滅します
-3. Cross
-4. together
-5. Blinking
+~$ echo f > /dev/signal0~
+- NUCLEO-F446REに接続されているLEDが流れるように点滅する信号を送信します
+
+2. cross
+~$ echo c > /dev/signal0~
+- NUCLEO-F446REに接続されているLEDが交わるように点滅する信号を送信します
+
+3. together
+~$ echo t > /dev/signal0~
+- NUCLEO-F446REに接続されているLEDが3つずつ点滅する信号を送信します
+
+4. blinking
+~$ echo b > /dev/signal0~
+- NUCLEO-F446REに接続されているLEDが同時に点滅する信号を送信します
+
 ---
 
 ## License
-
+[GNU General Public License v3.0](https://github.com/YukiShigematsu/Robosys1/blob/main/COPYING)
