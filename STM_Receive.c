@@ -3,7 +3,8 @@
 /
 /	Copyright (c) 2021, Yuki Shigematsu.
 /	All rights reserved.
-/	
+/	The parts of this program except lines 67, 107-129, and 275-441 are originally BSD licenses.
+/
 */
 
 /* USER CODE BEGIN Header */
